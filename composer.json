@@ -1,0 +1,29 @@
+{
+	"name":              "keepgo-eu/airalo-rest-api-client",
+	"description":       "Airalo REST API Client",
+	"minimum-stability": "dev",
+	"license":           "proprietary",
+	"authors":           [
+		{
+			"name":  "Ihor Sudoma",
+			"email": "ihor.s@droam.com"
+		}
+	],
+	"version":           "0.0.1",
+	"require":           {
+		"php":               ">=7.4|^8.1",
+		"ext-json":          "*",
+		"guzzlehttp/guzzle": "^7.0",
+		"nesbot/carbon":     "^2.57"
+	},
+	"require-dev":       {
+		"roave/security-advisories": "dev-latest"
+	},
+	"autoload":          {
+		"psr-4": {
+			"AiraloRestApiClient\\": "src/"
+		},
+		"files": [
+		]
+	}
+}
